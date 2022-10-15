@@ -5,7 +5,23 @@
     \usepackage{amsmath}
     %Encuadrar enunciados (teoremas, corolarios, lemas)
     \usepackage{mdframed}
- 
+    %Paquete para cambiar los estilos de teoremas.
+    \usepackage{amsthm}
+    %Images
+    \usepackage{graphicx}
+    %Para usar mathbb
+    \usepackage{amsfonts}
+    %Alinear matrices
+    \usepackage{mathtools}
+%Temas de idioma
+    % Set the font (output) encodings
+    \usepackage[T1]{fontenc}
+    % Spanish-specific commands
+    \usepackage[spanish]{babel}
+    % Simbolos
+    \usepackage{amssymb}
+%Usando mdframed para dar un contorno negro a los enunciados
+    \theoremstyle{definition}
       \newmdtheoremenv{teo}{Teorema}
       \newmdtheoremenv{lema}{Lema}
       \newmdtheoremenv{defi}{Definición}
